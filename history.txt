@@ -1,0 +1,87 @@
+    1  ls
+    2  ls c:
+    3  ls c:/
+    4  ls c:/hub
+    5  pwd
+    6  cd c:/hub
+    7  mkdir Learning_unix
+    8  mkdir Learning_unix
+    9  cd Learning_unix
+   10  mkdir -p a/b/c
+   11  cd home
+   12  cd ~
+   13  dir
+   14  ls
+   15  cd .
+   16  cd ..
+   17  ls
+   18  cd
+   19  ls -l
+   20  ls -l c:/hub
+   21  man ls
+   22  history
+   23  cls
+   24  clear
+   25  cd c:\hub\umuzi
+   26  cd c:/hub/umuzi
+   27  mkdir git-basic-exercises
+   28  cd git-basic-exercises
+   29  ls -a
+   30  git init
+   31  ls -a
+   32  git status
+   33  touch README.md
+   34  ls -a
+   35  git log
+   36  git add README.md
+   37  git status
+   38  git reset README.md
+   39  git status
+   40  git add README.md
+   41  git status
+   42  git commit -m "initial commit"
+   43  git commit -m "initial commit"
+   44  git config --global user.email "tsmodisaotsile@gmail.com"
+   45  git config --global user.name "Thabang"
+   46  git status
+   47  git commit -m "initial commit"
+   48  git log
+   49  nano README.md
+   50  git stats
+   51  git status
+   52  git add README.md
+   53  git status
+   54  git commit -m "second commit"
+   55  nano README.md
+   56  git status
+   57  git add README.md
+   58  git status
+   59  git commit -m "third commit"
+   60  git log
+   61  git checkout a0f09de003d2dd86aeb6bbd652c7ec646e61f744
+   62  cat README.md
+   63  git checkout main
+   64  git checkout ../main
+   65  git checkout main
+   66  git checkout ./main
+   67  git checkout ../../main
+   68  cd ..
+   69  cd git-basic-exercises
+   70  git checkout main
+   71  git checkout master
+   72  git branch -m master main
+   73  git checkout main
+   74  git branch
+   75  git checkout -b milkshake-flavours
+   76  git branch
+   77  nano milkshakes.md
+   78  git status
+   79  git add milkshakes.md
+   80  git status
+   81  git commit -m "added initial flavours"
+   82  git log
+   83  git checkout main
+   84  git checkout -b history
+   85  git log
+   86  git branch
+   87  history > history.txt
